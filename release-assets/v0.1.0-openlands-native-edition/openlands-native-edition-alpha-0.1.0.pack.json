@@ -165,5 +165,43 @@
   "artifactSha256": "b76397e83b892495a0ea17b3d07ae17867b547cbae1a8abef8ddbeb6e752f3f4",
   "artifactSize": 218828,
   "releaseTag": "v0.1.0-openlands-native-edition",
-  "releaseUrl": "https://github.com/knoxhack/ECHO-Openlands-Native-Edition/releases/tag/v0.1.0-openlands-native-edition"
+  "releaseUrl": "https://github.com/knoxhack/ECHO-Openlands-Native-Edition/releases/tag/v0.1.0-openlands-native-edition",
+  "minecraft": "26.1.2",
+  "minecraftVersion": "26.1.2",
+  "runtime": {
+    "requiredJava": "25+",
+    "minecraftVersion": "26.1.2",
+    "assetIndex": "26.1.2"
+  },
+  "nativeLoader": {
+    "version": "1.0.0",
+    "minecraftLauncherVersionId": "echo-native-loader-1.0.0",
+    "versionJson": {
+      "id": "echo-native-loader-1.0.0",
+      "inheritsFrom": "26.1.2",
+      "mainClass": "com.echo.NativeLoaderClient",
+      "arguments": {
+        "game": [],
+        "jvm": []
+      },
+      "libraries": [
+        {
+          "name": "com.echo:native-loader:1.0.0",
+          "downloads": {
+            "artifact": {
+              "path": "com/echo/native-loader/1.0.0/native-loader-1.0.0.jar",
+              "url": "https://github.com/knoxhack/ECHO-Native-Platform/releases/download/v1.0.0-RC1/native-loader-1.0.0.jar",
+              "sha1": "a5b1964dd959fe9186c06a6b45af623b687d8449",
+              "size": 1119541
+            }
+          }
+        }
+      ]
+    }
+  },
+  "launch": {
+    "mainClass": "com.echo.NativeLoaderClient",
+    "gameArgs": [],
+    "jvmArgs": []
+  }
 }
