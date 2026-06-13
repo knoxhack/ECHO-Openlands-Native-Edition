@@ -2,7 +2,7 @@
   "schema": "echo.openlands.edition.first_hour_playtest_report.v1",
   "status": "preflight_passed",
   "realRuntimePlaytestRequiredBeforePublicAlpha": true,
-  "generatedAt": "2026-06-13T00:22:58.684Z",
+  "generatedAt": "2026-06-13T06:55:11.715Z",
   "dryRun": false,
   "packId": "openlands-native-edition",
   "displayName": "Openlands Native Edition",

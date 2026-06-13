@@ -4,7 +4,7 @@
   "publicAlphaReady": false,
   "clearsLauncherGates": false,
   "rehearsalOnly": true,
-  "generatedAt": "2026-06-13T00:23:00.081Z",
+  "generatedAt": "2026-06-13T06:56:44.480Z",
   "dryRun": false,
   "edition": "native",
   "packId": "openlands-native-edition",
@@ -17,17 +17,17 @@
   "launcherFlowContract": "data/echoopenlandsprotocol/openlands/systems/launcher_flow_acceptance.json",
   "launcherExecutionContract": "data/echoopenlandsprotocol/openlands/systems/launcher_execution_acceptance.json",
   "moduleArtifact": "C:\\Development\\Github\\ECHO-Modules\\dist\\echo-module-release\\echoopenlandsprotocol\\echoopenlandsprotocol-0.1.0.echo-addon",
-  "moduleArtifactSha256": "7249b0b7e6000348027317807dcc263b32b623dc5460bc22aa0b68b6eb665afe",
-  "moduleArtifactSize": 227696,
-  "rehearsalRoot": "C:\\Users\\knox\\AppData\\Local\\Temp\\openlands-native-launcher-rehearsal-ue5h46",
+  "moduleArtifactSha256": "b95b83475d45aa56e8e85ec83b05990c7e1d903fcbdf58506bc2f8bf52457195",
+  "moduleArtifactSize": 216576,
+  "rehearsalRoot": "C:\\Users\\knox\\AppData\\Local\\Temp\\openlands-native-launcher-rehearsal-pHuBP4",
   "savedArtifactRoot": "C:\\Development\\Github\\ECHO-Openlands-Native-Edition\\evidence\\native-local-launcher-rehearsal-artifacts",
   "flowResults": [
     {
       "id": "install",
       "status": "passed",
-      "startedAt": "2026-06-13T00:23:00.058Z",
-      "finishedAt": "2026-06-13T00:23:00.065Z",
-      "durationMs": 7,
+      "startedAt": "2026-06-13T06:56:44.452Z",
+      "finishedAt": "2026-06-13T06:56:44.461Z",
+      "durationMs": 9,
       "assertions": [
         {
           "id": "manifest_snapshot_written",
@@ -55,9 +55,9 @@
         }
       ],
       "captures": {
-        "cachePath": "C:\\Users\\knox\\AppData\\Local\\Temp\\openlands-native-launcher-rehearsal-ue5h46\\cache\\echoopenlandsprotocol-0.1.0.echo-addon",
-        "cachedArtifactSha256": "7249b0b7e6000348027317807dcc263b32b623dc5460bc22aa0b68b6eb665afe",
-        "cachedArtifactSize": 227696,
+        "cachePath": "C:\\Users\\knox\\AppData\\Local\\Temp\\openlands-native-launcher-rehearsal-pHuBP4\\cache\\echoopenlandsprotocol-0.1.0.echo-addon",
+        "cachedArtifactSha256": "b95b83475d45aa56e8e85ec83b05990c7e1d903fcbdf58506bc2f8bf52457195",
+        "cachedArtifactSize": 216576,
         "artifactInspection": {
           "requiredEntries": [
             "META-INF/echo.mod.json",
@@ -79,8 +79,8 @@
     {
       "id": "update",
       "status": "passed",
-      "startedAt": "2026-06-13T00:23:00.065Z",
-      "finishedAt": "2026-06-13T00:23:00.072Z",
+      "startedAt": "2026-06-13T06:56:44.461Z",
+      "finishedAt": "2026-06-13T06:56:44.468Z",
       "durationMs": 7,
       "assertions": [
         {
@@ -111,8 +111,8 @@
         "afterUpdateWorldHash": "d9412612014e5e36b9a4e6d01566eb6b481bb45e37dd949205ab410e85b5a985",
         "beforeUpdateConfigHash": "f4a539f192bbe9691598d31dfd61d7173563cd7cfeac887500a2b4fa1c95b3d1",
         "afterUpdateConfigHash": "f4a539f192bbe9691598d31dfd61d7173563cd7cfeac887500a2b4fa1c95b3d1",
-        "changedArtifactSha256": "7249b0b7e6000348027317807dcc263b32b623dc5460bc22aa0b68b6eb665afe",
-        "reusedArtifactSha256": "7249b0b7e6000348027317807dcc263b32b623dc5460bc22aa0b68b6eb665afe"
+        "changedArtifactSha256": "b95b83475d45aa56e8e85ec83b05990c7e1d903fcbdf58506bc2f8bf52457195",
+        "reusedArtifactSha256": "b95b83475d45aa56e8e85ec83b05990c7e1d903fcbdf58506bc2f8bf52457195"
       },
       "savedArtifacts": [
         "update/launcher-update-log.txt",
@@ -125,9 +125,9 @@
     {
       "id": "repair",
       "status": "passed",
-      "startedAt": "2026-06-13T00:23:00.072Z",
-      "finishedAt": "2026-06-13T00:23:00.076Z",
-      "durationMs": 4,
+      "startedAt": "2026-06-13T06:56:44.468Z",
+      "finishedAt": "2026-06-13T06:56:44.473Z",
+      "durationMs": 5,
       "assertions": [
         {
           "id": "corrupt_artifact_hash_differs",
@@ -147,10 +147,10 @@
         }
       ],
       "captures": {
-        "corruptedArtifactPath": "C:\\Users\\knox\\AppData\\Local\\Temp\\openlands-native-launcher-rehearsal-ue5h46\\cache\\echoopenlandsprotocol-0.1.0.echo-addon",
-        "corruptSha256": "ec470f2f4e58c2719998941f98dc1b4f1ebee2f66a4c4fe58a410b37a93e3ebe",
-        "restoredSha256": "7249b0b7e6000348027317807dcc263b32b623dc5460bc22aa0b68b6eb665afe",
-        "expectedSha256": "7249b0b7e6000348027317807dcc263b32b623dc5460bc22aa0b68b6eb665afe",
+        "corruptedArtifactPath": "C:\\Users\\knox\\AppData\\Local\\Temp\\openlands-native-launcher-rehearsal-pHuBP4\\cache\\echoopenlandsprotocol-0.1.0.echo-addon",
+        "corruptSha256": "a241e4657a95ecb80914ed2cf721b4de35696a0a004800e11d7cf6aef4c3481a",
+        "restoredSha256": "b95b83475d45aa56e8e85ec83b05990c7e1d903fcbdf58506bc2f8bf52457195",
+        "expectedSha256": "b95b83475d45aa56e8e85ec83b05990c7e1d903fcbdf58506bc2f8bf52457195",
         "worldHashBeforeRepair": "d9412612014e5e36b9a4e6d01566eb6b481bb45e37dd949205ab410e85b5a985",
         "worldHashAfterRepair": "d9412612014e5e36b9a4e6d01566eb6b481bb45e37dd949205ab410e85b5a985",
         "repairDownloadUrl": "local-release-root"
@@ -164,9 +164,9 @@
     {
       "id": "rollback",
       "status": "passed",
-      "startedAt": "2026-06-13T00:23:00.076Z",
-      "finishedAt": "2026-06-13T00:23:00.080Z",
-      "durationMs": 4,
+      "startedAt": "2026-06-13T06:56:44.473Z",
+      "finishedAt": "2026-06-13T06:56:44.480Z",
+      "durationMs": 7,
       "assertions": [
         {
           "id": "rollback_manifest_snapshot_written",
@@ -192,7 +192,7 @@
       "captures": {
         "currentManifestId": "openlands-0.1.0-compiled",
         "previousManifestId": "openlands-0.1.0-compiled-previous-local-rehearsal",
-        "rollbackArtifactSha256": "7249b0b7e6000348027317807dcc263b32b623dc5460bc22aa0b68b6eb665afe",
+        "rollbackArtifactSha256": "b95b83475d45aa56e8e85ec83b05990c7e1d903fcbdf58506bc2f8bf52457195",
         "schemaCompatibilityDecision": "compatible_rehearsal_no_schema_change",
         "worldHashBeforeRollback": "d9412612014e5e36b9a4e6d01566eb6b481bb45e37dd949205ab410e85b5a985",
         "worldHashAfterRollback": "d9412612014e5e36b9a4e6d01566eb6b481bb45e37dd949205ab410e85b5a985",

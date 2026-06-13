@@ -1,7 +1,7 @@
 {
   "schema": "echo.openlands.edition.final_release_review_report.v1",
   "status": "blocked",
-  "generatedAt": "2026-06-13T00:23:00.335Z",
+  "generatedAt": "2026-06-13T06:55:11.328Z",
   "generatedBy": "generate-openlands-final-release-review-report.mjs",
   "edition": "native",
   "packId": "openlands-native-edition",
@@ -9,7 +9,7 @@
   "moduleId": "echoopenlandsprotocol",
   "moduleVersion": "0.1.0",
   "moduleArtifact": "C:\\Development\\Github\\ECHO-Modules\\dist\\echo-module-release\\echoopenlandsprotocol\\echoopenlandsprotocol-0.1.0.echo-addon",
-  "moduleArtifactSha256": "7249b0b7e6000348027317807dcc263b32b623dc5460bc22aa0b68b6eb665afe",
+  "moduleArtifactSha256": "b95b83475d45aa56e8e85ec83b05990c7e1d903fcbdf58506bc2f8bf52457195",
   "assetManifestHash": "7cd21d0ea59f672ada60028ca746d1b779b6f6e1aa56bba75bc9db462cf717a9",
   "legalAuditHash": "d6024cc2aec22f22b1f170caef12c028da8b24032decc4e2f7f7c817be244371",
   "reviewer": null,

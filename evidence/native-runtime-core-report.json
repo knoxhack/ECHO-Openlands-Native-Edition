@@ -1,7 +1,7 @@
 {
   "schema": "echo.openlands.edition.runtime_core_report.v1",
   "status": "passed",
-  "generatedAt": "2026-06-13T00:22:56.627Z",
+  "generatedAt": "2026-06-13T06:55:14.962Z",
   "dryRun": false,
   "packId": "openlands-native-edition",
   "displayName": "Openlands Native Edition",

@@ -2,7 +2,7 @@
   "schema": "echo.openlands.edition.alpha_systems_report.v1",
   "status": "preflight_passed",
   "realRuntimeAlphaSystemsRequiredBeforePublicAlpha": true,
-  "generatedAt": "2026-06-13T00:22:58.329Z",
+  "generatedAt": "2026-06-13T06:55:10.307Z",
   "dryRun": false,
   "packId": "openlands-native-edition",
   "displayName": "Openlands Native Edition",

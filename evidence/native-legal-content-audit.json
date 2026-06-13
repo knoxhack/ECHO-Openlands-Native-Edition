@@ -2,7 +2,7 @@
   "schema": "echo.openlands.edition.legal_content_audit_report.v1",
   "status": "preflight_passed",
   "publicReleaseAllowed": false,
-  "generatedAt": "2026-06-13T00:22:59.413Z",
+  "generatedAt": "2026-06-13T06:55:12.683Z",
   "dryRun": false,
   "packId": "openlands-native-edition",
   "displayName": "Openlands Native Edition",

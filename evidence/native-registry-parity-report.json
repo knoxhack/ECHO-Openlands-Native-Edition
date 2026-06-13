@@ -2,7 +2,7 @@
   "schema": "echo.openlands.edition.registry_parity_report.v1",
   "status": "preflight_passed",
   "realRegistryParityExecutionRequiredBeforePublicAlpha": true,
-  "generatedAt": "2026-06-13T00:22:55.230Z",
+  "generatedAt": "2026-06-13T06:55:13.513Z",
   "dryRun": false,
   "packId": "openlands-native-edition",
   "displayName": "Openlands Native Edition",

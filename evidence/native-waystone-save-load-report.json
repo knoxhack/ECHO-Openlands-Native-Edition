@@ -2,7 +2,7 @@
   "schema": "echo.openlands.edition.waystone_save_load_report.v1",
   "status": "preflight_passed",
   "realRuntimeSaveLoadRequiredBeforePublicAlpha": true,
-  "generatedAt": "2026-06-13T00:22:59.034Z",
+  "generatedAt": "2026-06-13T06:55:15.385Z",
   "dryRun": false,
   "packId": "openlands-native-edition",
   "displayName": "Openlands Native Edition",

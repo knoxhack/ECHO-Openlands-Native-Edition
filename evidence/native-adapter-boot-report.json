@@ -2,7 +2,7 @@
   "schema": "echo.openlands.edition.adapter_boot_report.v1",
   "status": "preflight_passed",
   "realAdapterBootRequiredBeforePublicAlpha": true,
-  "generatedAt": "2026-06-13T00:22:54.873Z",
+  "generatedAt": "2026-06-13T06:55:09.843Z",
   "dryRun": false,
   "packId": "openlands-native-edition",
   "displayName": "Openlands Native Edition",
