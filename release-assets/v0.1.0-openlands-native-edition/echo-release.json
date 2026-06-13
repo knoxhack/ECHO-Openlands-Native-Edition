@@ -6,7 +6,7 @@
   "channel": "alpha",
   "releasedAt": "2026-06-13T07:14:52.103Z",
   "manifestAsset": "openlands-native-edition-alpha-0.1.0.pack.json",
-  "manifestSha256": "9e2ea3c3733a22d76405cf68471f732cfdd79133582cd04f82666cf33ae571ef",
+  "manifestSha256": "45d4f3bc2ab64af48f6e531e0c7da4ffb1e5668b6ac093b5f6b063ef22377dfb",
   "artifactMode": "zip",
   "artifactAsset": "openlands-native-edition-0.1.0.zip",
   "artifactSha256": "b76397e83b892495a0ea17b3d07ae17867b547cbae1a8abef8ddbeb6e752f3f4",
@@ -25,8 +25,8 @@
     {
       "name": "openlands-native-edition-alpha-0.1.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "9e2ea3c3733a22d76405cf68471f732cfdd79133582cd04f82666cf33ae571ef",
-      "size": 5659
+      "sha256": "45d4f3bc2ab64af48f6e531e0c7da4ffb1e5668b6ac093b5f6b063ef22377dfb",
+      "size": 19719
     },
     {
       "name": "openlands-native-edition-0.1.0.zip",

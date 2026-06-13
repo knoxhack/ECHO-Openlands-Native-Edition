@@ -10,80 +10,466 @@
   "moduleArtifactFamily": "echo-addon",
   "moduleRequirements": [
     {
-      "id": "echocore",
-      "version": ">=1.0.0"
-    },
-    {
-      "id": "echonetcore",
-      "version": ">=1.0.0"
-    },
-    {
       "id": "echoadaptercore",
-      "version": ">=1.0.0"
-    },
-    {
-      "id": "echocontentcore",
-      "version": ">=1.0.0"
-    },
-    {
-      "id": "echoworldcore",
-      "version": ">=1.0.0"
-    },
-    {
-      "id": "echorecipecore",
-      "version": ">=1.0.0"
-    },
-    {
-      "id": "echobiomecore",
-      "version": ">=1.0.0"
-    },
-    {
-      "id": "echostructurecore",
-      "version": ">=1.0.0"
-    },
-    {
-      "id": "echocreaturecore",
-      "version": ">=1.0.0"
-    },
-    {
-      "id": "echofoundationcore",
-      "version": ">=0.1.0"
-    },
-    {
-      "id": "echomaterialcore",
-      "version": ">=0.1.0"
-    },
-    {
-      "id": "echotoolcore",
-      "version": ">=0.1.0"
-    },
-    {
-      "id": "echostationcore",
-      "version": ">=0.1.0"
-    },
-    {
-      "id": "echoworldstarter",
-      "version": ">=0.1.0"
-    },
-    {
-      "id": "echocommonloot",
-      "version": ">=0.1.0"
-    },
-    {
-      "id": "echocreatureroles",
-      "version": ">=0.1.0"
-    },
-    {
-      "id": "echoprogressioncore",
-      "version": ">=1.0.0"
+      "moduleId": "echoadaptercore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoadaptercore-1.0.0.echo-addon",
+      "artifactName": "echoadaptercore-1.0.0.echo-addon",
+      "path": "addons/echoadaptercore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
     },
     {
       "id": "echoassetcore",
-      "version": ">=1.0.0"
+      "moduleId": "echoassetcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoassetcore-1.0.0.echo-addon",
+      "artifactName": "echoassetcore-1.0.0.echo-addon",
+      "path": "addons/echoassetcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echobiomecore",
+      "moduleId": "echobiomecore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echobiomecore-1.0.0.echo-addon",
+      "artifactName": "echobiomecore-1.0.0.echo-addon",
+      "path": "addons/echobiomecore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoblockworks",
+      "moduleId": "echoblockworks",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoblockworks-1.0.0.echo-addon",
+      "artifactName": "echoblockworks-1.0.0.echo-addon",
+      "path": "addons/echoblockworks-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echocommonloot",
+      "moduleId": "echocommonloot",
+      "version": "0.1.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echocommonloot-0.1.0.echo-addon",
+      "artifactName": "echocommonloot-0.1.0.echo-addon",
+      "path": "addons/echocommonloot-0.1.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echocontentcore",
+      "moduleId": "echocontentcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echocontentcore-1.0.0.echo-addon",
+      "artifactName": "echocontentcore-1.0.0.echo-addon",
+      "path": "addons/echocontentcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echocore",
+      "moduleId": "echocore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echocore-1.0.0.echo-addon",
+      "artifactName": "echocore-1.0.0.echo-addon",
+      "path": "addons/echocore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echocreaturecore",
+      "moduleId": "echocreaturecore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echocreaturecore-1.0.0.echo-addon",
+      "artifactName": "echocreaturecore-1.0.0.echo-addon",
+      "path": "addons/echocreaturecore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echocreatureroles",
+      "moduleId": "echocreatureroles",
+      "version": "0.1.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echocreatureroles-0.1.0.echo-addon",
+      "artifactName": "echocreatureroles-0.1.0.echo-addon",
+      "path": "addons/echocreatureroles-0.1.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoeconomycore",
+      "moduleId": "echoeconomycore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoeconomycore-1.0.0.echo-addon",
+      "artifactName": "echoeconomycore-1.0.0.echo-addon",
+      "path": "addons/echoeconomycore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echofoundationcore",
+      "moduleId": "echofoundationcore",
+      "version": "0.1.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echofoundationcore-0.1.0.echo-addon",
+      "artifactName": "echofoundationcore-0.1.0.echo-addon",
+      "path": "addons/echofoundationcore-0.1.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echohealthcore",
+      "moduleId": "echohealthcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echohealthcore-1.0.0.echo-addon",
+      "artifactName": "echohealthcore-1.0.0.echo-addon",
+      "path": "addons/echohealthcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoholomap",
+      "moduleId": "echoholomap",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoholomap-1.0.0.echo-addon",
+      "artifactName": "echoholomap-1.0.0.echo-addon",
+      "path": "addons/echoholomap-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echohudcore",
+      "moduleId": "echohudcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echohudcore-1.0.0.echo-addon",
+      "artifactName": "echohudcore-1.0.0.echo-addon",
+      "path": "addons/echohudcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoindex",
+      "moduleId": "echoindex",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoindex-1.0.0.echo-addon",
+      "artifactName": "echoindex-1.0.0.echo-addon",
+      "path": "addons/echoindex-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echolens",
+      "moduleId": "echolens",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echolens-1.0.0.echo-addon",
+      "artifactName": "echolens-1.0.0.echo-addon",
+      "path": "addons/echolens-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echolootcore",
+      "moduleId": "echolootcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echolootcore-1.0.0.echo-addon",
+      "artifactName": "echolootcore-1.0.0.echo-addon",
+      "path": "addons/echolootcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echomaterialcore",
+      "moduleId": "echomaterialcore",
+      "version": "0.1.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echomaterialcore-0.1.0.echo-addon",
+      "artifactName": "echomaterialcore-0.1.0.echo-addon",
+      "path": "addons/echomaterialcore-0.1.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echomissioncore",
+      "moduleId": "echomissioncore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echomissioncore-1.0.0.echo-addon",
+      "artifactName": "echomissioncore-1.0.0.echo-addon",
+      "path": "addons/echomissioncore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echonetcore",
+      "moduleId": "echonetcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echonetcore-1.0.0.echo-addon",
+      "artifactName": "echonetcore-1.0.0.echo-addon",
+      "path": "addons/echonetcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echonpcore",
+      "moduleId": "echonpcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echonpcore-1.0.0.echo-addon",
+      "artifactName": "echonpcore-1.0.0.echo-addon",
+      "path": "addons/echonpcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
     },
     {
       "id": "echoopenlandsprotocol",
-      "version": "0.1.0"
+      "moduleId": "echoopenlandsprotocol",
+      "version": "0.1.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoopenlandsprotocol-0.1.0.echo-addon",
+      "artifactName": "echoopenlandsprotocol-0.1.0.echo-addon",
+      "path": "addons/echoopenlandsprotocol-0.1.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoplatformcore",
+      "moduleId": "echoplatformcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoplatformcore-1.0.0.echo-addon",
+      "artifactName": "echoplatformcore-1.0.0.echo-addon",
+      "path": "addons/echoplatformcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoplayercore",
+      "moduleId": "echoplayercore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoplayercore-1.0.0.echo-addon",
+      "artifactName": "echoplayercore-1.0.0.echo-addon",
+      "path": "addons/echoplayercore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoprogressioncore",
+      "moduleId": "echoprogressioncore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoprogressioncore-1.0.0.echo-addon",
+      "artifactName": "echoprogressioncore-1.0.0.echo-addon",
+      "path": "addons/echoprogressioncore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echorecipecore",
+      "moduleId": "echorecipecore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echorecipecore-1.0.0.echo-addon",
+      "artifactName": "echorecipecore-1.0.0.echo-addon",
+      "path": "addons/echorecipecore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echorecovery",
+      "moduleId": "echorecovery",
+      "version": "1.3.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echorecovery-1.3.0.echo-addon",
+      "artifactName": "echorecovery-1.3.0.echo-addon",
+      "path": "addons/echorecovery-1.3.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoruntimeguard",
+      "moduleId": "echoruntimeguard",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoruntimeguard-1.0.0.echo-addon",
+      "artifactName": "echoruntimeguard-1.0.0.echo-addon",
+      "path": "addons/echoruntimeguard-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoschemacore",
+      "moduleId": "echoschemacore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoschemacore-1.0.0.echo-addon",
+      "artifactName": "echoschemacore-1.0.0.echo-addon",
+      "path": "addons/echoschemacore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoscreencore",
+      "moduleId": "echoscreencore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoscreencore-1.0.0.echo-addon",
+      "artifactName": "echoscreencore-1.0.0.echo-addon",
+      "path": "addons/echoscreencore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echosocialcore",
+      "moduleId": "echosocialcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echosocialcore-1.0.0.echo-addon",
+      "artifactName": "echosocialcore-1.0.0.echo-addon",
+      "path": "addons/echosocialcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echosoundcore",
+      "moduleId": "echosoundcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echosoundcore-1.0.0.echo-addon",
+      "artifactName": "echosoundcore-1.0.0.echo-addon",
+      "path": "addons/echosoundcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echostationcore",
+      "moduleId": "echostationcore",
+      "version": "0.1.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echostationcore-0.1.0.echo-addon",
+      "artifactName": "echostationcore-0.1.0.echo-addon",
+      "path": "addons/echostationcore-0.1.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echostructurecore",
+      "moduleId": "echostructurecore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echostructurecore-1.0.0.echo-addon",
+      "artifactName": "echostructurecore-1.0.0.echo-addon",
+      "path": "addons/echostructurecore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoterminal",
+      "moduleId": "echoterminal",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoterminal-1.0.0.echo-addon",
+      "artifactName": "echoterminal-1.0.0.echo-addon",
+      "path": "addons/echoterminal-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echothemecore",
+      "moduleId": "echothemecore",
+      "version": "1.3.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echothemecore-1.3.0.echo-addon",
+      "artifactName": "echothemecore-1.3.0.echo-addon",
+      "path": "addons/echothemecore-1.3.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echotoolcore",
+      "moduleId": "echotoolcore",
+      "version": "0.1.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echotoolcore-0.1.0.echo-addon",
+      "artifactName": "echotoolcore-0.1.0.echo-addon",
+      "path": "addons/echotoolcore-0.1.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echotutorialcore",
+      "moduleId": "echotutorialcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echotutorialcore-1.0.0.echo-addon",
+      "artifactName": "echotutorialcore-1.0.0.echo-addon",
+      "path": "addons/echotutorialcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echovalidationcore",
+      "moduleId": "echovalidationcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echovalidationcore-1.0.0.echo-addon",
+      "artifactName": "echovalidationcore-1.0.0.echo-addon",
+      "path": "addons/echovalidationcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoweathercore",
+      "moduleId": "echoweathercore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoweathercore-1.0.0.echo-addon",
+      "artifactName": "echoweathercore-1.0.0.echo-addon",
+      "path": "addons/echoweathercore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoworldcore",
+      "moduleId": "echoworldcore",
+      "version": "1.0.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoworldcore-1.0.0.echo-addon",
+      "artifactName": "echoworldcore-1.0.0.echo-addon",
+      "path": "addons/echoworldcore-1.0.0.echo-addon",
+      "required": true,
+      "side": "both"
+    },
+    {
+      "id": "echoworldstarter",
+      "moduleId": "echoworldstarter",
+      "version": "0.1.0",
+      "artifactFamily": "echo-addon",
+      "assetName": "echoworldstarter-0.1.0.echo-addon",
+      "artifactName": "echoworldstarter-0.1.0.echo-addon",
+      "path": "addons/echoworldstarter-0.1.0.echo-addon",
+      "required": true,
+      "side": "both"
     }
   ],
   "requiredModuleDescriptors": [
@@ -125,25 +511,48 @@
     }
   ],
   "modules": [
-    "echocore",
-    "echonetcore",
     "echoadaptercore",
-    "echocontentcore",
-    "echoworldcore",
-    "echorecipecore",
-    "echobiomecore",
-    "echostructurecore",
-    "echocreaturecore",
-    "echofoundationcore",
-    "echomaterialcore",
-    "echotoolcore",
-    "echostationcore",
-    "echoworldstarter",
-    "echocommonloot",
-    "echocreatureroles",
-    "echoprogressioncore",
     "echoassetcore",
-    "echoopenlandsprotocol"
+    "echobiomecore",
+    "echoblockworks",
+    "echocommonloot",
+    "echocontentcore",
+    "echocore",
+    "echocreaturecore",
+    "echocreatureroles",
+    "echoeconomycore",
+    "echofoundationcore",
+    "echohealthcore",
+    "echoholomap",
+    "echohudcore",
+    "echoindex",
+    "echolens",
+    "echolootcore",
+    "echomaterialcore",
+    "echomissioncore",
+    "echonetcore",
+    "echonpcore",
+    "echoopenlandsprotocol",
+    "echoplatformcore",
+    "echoplayercore",
+    "echoprogressioncore",
+    "echorecipecore",
+    "echorecovery",
+    "echoruntimeguard",
+    "echoschemacore",
+    "echoscreencore",
+    "echosocialcore",
+    "echosoundcore",
+    "echostationcore",
+    "echostructurecore",
+    "echoterminal",
+    "echothemecore",
+    "echotoolcore",
+    "echotutorialcore",
+    "echovalidationcore",
+    "echoweathercore",
+    "echoworldcore",
+    "echoworldstarter"
   ],
   "changelog": [
     "Openlands Native Edition prerelease assembled from the compiled echoopenlandsprotocol Native artifact.",
