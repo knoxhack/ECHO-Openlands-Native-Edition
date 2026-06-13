@@ -20,3 +20,10 @@ Openlands Native Edition is the ECHO Native Platform packaging lane for the Open
 
 Implementation foundation only. Do not mark this edition public-ready until the Native artifact, install flow, update flow, repair flow, rollback flow, and parity tests pass.
 
+## Preview Payload
+
+- `preview-artifacts/echoopenlandsprotocol-0.1.0.echo-addon`
+- `preview-artifacts/echoopenlandsprotocol-0.1.0-sources.jar`
+- `manifests/modpack-index-entry.preview.json`
+
+These files are checked in for repo visibility and handoff review only. They are not approved player-facing release artifacts.
