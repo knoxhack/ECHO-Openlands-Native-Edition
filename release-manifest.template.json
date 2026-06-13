@@ -110,5 +110,50 @@
     "waystone_state_save_load_pass",
     "legal_content_audit_pass"
   ],
-  "artifacts": []
+  "artifacts": [
+    {
+      "role": "pack-archive",
+      "file": "openlands-native-edition-0.1.0.zip",
+      "path": "release-assets/v0.1.0-openlands-native-edition/openlands-native-edition-0.1.0.zip",
+      "size": 218828,
+      "sha256": "b76397e83b892495a0ea17b3d07ae17867b547cbae1a8abef8ddbeb6e752f3f4",
+      "sourceReleaseTag": "v0.1.0-openlands-native-edition",
+      "sourceReleaseUrl": "https://github.com/knoxhack/ECHO-Openlands-Native-Edition/releases/tag/v0.1.0-openlands-native-edition",
+      "downloadUrl": "https://github.com/knoxhack/ECHO-Openlands-Native-Edition/releases/download/v0.1.0-openlands-native-edition/openlands-native-edition-0.1.0.zip",
+      "lfs": true
+    },
+    {
+      "role": "pack-manifest",
+      "file": "openlands-native-edition-alpha-0.1.0.pack.json",
+      "path": "release-assets/v0.1.0-openlands-native-edition/openlands-native-edition-alpha-0.1.0.pack.json",
+      "size": 4585,
+      "sha256": "2989c0b8ceb788a121b5fbb3d79c961ac019a991c935acaf54b33d702bc415a7",
+      "sourceReleaseTag": "v0.1.0-openlands-native-edition",
+      "sourceReleaseUrl": "https://github.com/knoxhack/ECHO-Openlands-Native-Edition/releases/tag/v0.1.0-openlands-native-edition",
+      "downloadUrl": "https://github.com/knoxhack/ECHO-Openlands-Native-Edition/releases/download/v0.1.0-openlands-native-edition/openlands-native-edition-alpha-0.1.0.pack.json",
+      "lfs": false
+    },
+    {
+      "role": "checksums",
+      "file": "checksums.txt",
+      "path": "release-assets/v0.1.0-openlands-native-edition/checksums.txt",
+      "size": 298,
+      "sha256": "87885f0577383398b51fa05ed55566a2f389b3f980647de75371a2e92b66fbfb",
+      "sourceReleaseTag": "v0.1.0-openlands-native-edition",
+      "sourceReleaseUrl": "https://github.com/knoxhack/ECHO-Openlands-Native-Edition/releases/tag/v0.1.0-openlands-native-edition",
+      "downloadUrl": "https://github.com/knoxhack/ECHO-Openlands-Native-Edition/releases/download/v0.1.0-openlands-native-edition/checksums.txt",
+      "lfs": false
+    },
+    {
+      "role": "echo-release",
+      "file": "echo-release.json",
+      "path": "release-assets/v0.1.0-openlands-native-edition/echo-release.json",
+      "size": 2028,
+      "sha256": "23a6745403fab2b8d0a82b3436a5a5151dc968782523544bdb352c90cf07947d",
+      "sourceReleaseTag": "v0.1.0-openlands-native-edition",
+      "sourceReleaseUrl": "https://github.com/knoxhack/ECHO-Openlands-Native-Edition/releases/tag/v0.1.0-openlands-native-edition",
+      "downloadUrl": "https://github.com/knoxhack/ECHO-Openlands-Native-Edition/releases/download/v0.1.0-openlands-native-edition/echo-release.json",
+      "lfs": false
+    }
+  ]
 }

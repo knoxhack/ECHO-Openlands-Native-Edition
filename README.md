@@ -27,3 +27,11 @@ Implementation foundation only. Do not mark this edition public-ready until the 
 - `manifests/modpack-index-entry.preview.json`
 
 These files are checked in for repo visibility and handoff review only. They are not approved player-facing release artifacts.
+
+## Release Assets
+
+- GitHub prerelease tag: `v0.1.0-openlands-native-edition`
+- Checked-in payloads: `release-assets/v0.1.0-openlands-native-edition/`
+- Uploaded assets: `openlands-native-edition-0.1.0.zip`, `openlands-native-edition-alpha-0.1.0.pack.json`, `checksums.txt`, `echo-release.json`
+
+These prerelease assets are checksum-backed handoff artifacts. Keep Release Index validation in warning until the remaining Openlands public-alpha gates pass.

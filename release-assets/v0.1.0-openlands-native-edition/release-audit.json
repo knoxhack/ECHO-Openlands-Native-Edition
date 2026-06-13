@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-06-13T07:14:52.103Z",
+  "repository": "knoxhack/ECHO-Openlands-Native-Edition",
+  "releaseTag": "v0.1.0-openlands-native-edition",
+  "status": "verified-prerelease-assets",
+  "releaseUrl": "https://github.com/knoxhack/ECHO-Openlands-Native-Edition/releases/tag/v0.1.0-openlands-native-edition",
+  "assetDirectory": "release-assets/v0.1.0-openlands-native-edition",
+  "uploadedReleaseAssets": [
+    "openlands-native-edition-0.1.0.zip",
+    "openlands-native-edition-alpha-0.1.0.pack.json",
+    "checksums.txt",
+    "echo-release.json"
+  ],
+  "sidecarAssets": [
+    "release-audit.json"
+  ],
+  "assets": [
+    {
+      "name": "openlands-native-edition-0.1.0.zip",
+      "size": 218828,
+      "sha256": "b76397e83b892495a0ea17b3d07ae17867b547cbae1a8abef8ddbeb6e752f3f4"
+    },
+    {
+      "name": "openlands-native-edition-alpha-0.1.0.pack.json",
+      "size": 4585,
+      "sha256": "2989c0b8ceb788a121b5fbb3d79c961ac019a991c935acaf54b33d702bc415a7"
+    },
+    {
+      "name": "checksums.txt",
+      "size": 298,
+      "sha256": "87885f0577383398b51fa05ed55566a2f389b3f980647de75371a2e92b66fbfb"
+    },
+    {
+      "name": "echo-release.json",
+      "size": 2028,
+      "sha256": "23a6745403fab2b8d0a82b3436a5a5151dc968782523544bdb352c90cf07947d"
+    }
+  ],
+  "zip": {
+    "file": "openlands-native-edition-0.1.0.zip",
+    "entries": 4,
+    "sha256": "b76397e83b892495a0ea17b3d07ae17867b547cbae1a8abef8ddbeb6e752f3f4"
+  },
+  "checksumCoverage": {
+    "total": 3,
+    "releaseAssetFiles": 3,
+    "zipEntries": 0,
+    "missing": 0,
+    "mismatched": 0
+  },
+  "checksumEntries": [
+    {
+      "file": "openlands-native-edition-0.1.0.zip",
+      "expectedSha256": "b76397e83b892495a0ea17b3d07ae17867b547cbae1a8abef8ddbeb6e752f3f4",
+      "actualSha256": "b76397e83b892495a0ea17b3d07ae17867b547cbae1a8abef8ddbeb6e752f3f4",
+      "coveredBy": "release-asset-file",
+      "matchedPath": "openlands-native-edition-0.1.0.zip",
+      "size": 218828,
+      "ok": true
+    },
+    {
+      "file": "openlands-native-edition-alpha-0.1.0.pack.json",
+      "expectedSha256": "2989c0b8ceb788a121b5fbb3d79c961ac019a991c935acaf54b33d702bc415a7",
+      "actualSha256": "2989c0b8ceb788a121b5fbb3d79c961ac019a991c935acaf54b33d702bc415a7",
+      "coveredBy": "release-asset-file",
+      "matchedPath": "openlands-native-edition-alpha-0.1.0.pack.json",
+      "size": 4585,
+      "ok": true
+    },
+    {
+      "file": "echo-release.json",
+      "expectedSha256": "23a6745403fab2b8d0a82b3436a5a5151dc968782523544bdb352c90cf07947d",
+      "actualSha256": "23a6745403fab2b8d0a82b3436a5a5151dc968782523544bdb352c90cf07947d",
+      "coveredBy": "release-asset-file",
+      "matchedPath": "echo-release.json",
+      "size": 2028,
+      "ok": true
+    }
+  ],
+  "missingChecksumEntries": [],
+  "mismatchedChecksumEntries": []
+}

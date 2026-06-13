@@ -1,0 +1,54 @@
+{
+  "formatVersion": 2,
+  "pack": "openlands-native-edition",
+  "name": "Openlands Native Edition",
+  "version": "0.1.0",
+  "channel": "alpha",
+  "releasedAt": "2026-06-13T07:14:52.103Z",
+  "manifestAsset": "openlands-native-edition-alpha-0.1.0.pack.json",
+  "manifestSha256": "2989c0b8ceb788a121b5fbb3d79c961ac019a991c935acaf54b33d702bc415a7",
+  "artifactMode": "zip",
+  "artifactAsset": "openlands-native-edition-0.1.0.zip",
+  "artifactSha256": "b76397e83b892495a0ea17b3d07ae17867b547cbae1a8abef8ddbeb6e752f3f4",
+  "artifactSize": 218828,
+  "packs": [
+    {
+      "pack": "openlands-native-edition",
+      "name": "Openlands Native Edition",
+      "version": "0.1.0",
+      "channel": "alpha",
+      "manifestAsset": "openlands-native-edition-alpha-0.1.0.pack.json",
+      "artifactAsset": "openlands-native-edition-0.1.0.zip"
+    }
+  ],
+  "assets": [
+    {
+      "name": "openlands-native-edition-alpha-0.1.0.pack.json",
+      "role": "pack-manifest",
+      "sha256": "2989c0b8ceb788a121b5fbb3d79c961ac019a991c935acaf54b33d702bc415a7",
+      "size": 4585
+    },
+    {
+      "name": "openlands-native-edition-0.1.0.zip",
+      "role": "pack-artifact",
+      "sha256": "b76397e83b892495a0ea17b3d07ae17867b547cbae1a8abef8ddbeb6e752f3f4",
+      "size": 218828
+    },
+    {
+      "name": "echoopenlandsprotocol-0.1.0.echo-addon",
+      "role": "pack-file",
+      "path": "addons/echoopenlandsprotocol-0.1.0.echo-addon",
+      "sha256": "b95b83475d45aa56e8e85ec83b05990c7e1d903fcbdf58506bc2f8bf52457195",
+      "size": 216576
+    }
+  ],
+  "releaseGate": {
+    "status": "warning",
+    "publicAlphaReady": false,
+    "reason": "Published as a prerelease handoff. Do not promote to approved until Openlands readiness blockers clear."
+  },
+  "notes": [
+    "Openlands Native Edition prerelease assembled from the compiled echoopenlandsprotocol Native artifact.",
+    "This is a checksum-backed prerelease handoff. Keep public-alpha validation in warning until the remaining launcher, playtest, save/load, and legal gates pass."
+  ]
+}
