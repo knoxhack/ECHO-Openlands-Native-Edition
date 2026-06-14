@@ -1149,8 +1149,8 @@
       "legal_content_audit_missing"
     ]
   },
-  "artifactSha256": "00d3d7e9bc348b392c30883c5f1d1927f745b6a968fe8453cb44cb782982d8fa",
-  "artifactSize": 112406177,
+  "artifactSha256": "5450e43e77e2602bcada23f08e10e1e763e67cfd0ed963957f8b86950be6efb6",
+  "artifactSize": 112401875,
   "releaseTag": "v0.1.0-openlands-native-edition",
   "releaseUrl": "https://github.com/knoxhack/ECHO-Openlands-Native-Edition/releases/tag/v0.1.0-openlands-native-edition",
   "minecraft": "26.1.2",
