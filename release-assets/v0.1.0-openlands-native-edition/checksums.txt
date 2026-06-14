@@ -1,3 +1,3 @@
-8bb10b558024646a36ef27f9d651057a17dc6bb95e78e267ecbbee182fa5487a  echo-release.json
+d65ea73651781ddc49777bee04a68e1103dfb498cedcfe4b88f592d94bb10f67  echo-release.json
 5450e43e77e2602bcada23f08e10e1e763e67cfd0ed963957f8b86950be6efb6  openlands-native-edition-0.1.0.zip
 cbbe36b5727e239faa0e54fa92962a3903cf8a3a96f014fc55766dfeeae49cde  openlands-native-edition-alpha-0.1.0.pack.json
