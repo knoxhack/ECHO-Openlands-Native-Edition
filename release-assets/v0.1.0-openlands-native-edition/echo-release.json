@@ -4,13 +4,15 @@
   "name": "Openlands Native Edition",
   "version": "0.1.0",
   "channel": "alpha",
-  "releasedAt": "2026-06-13T07:14:52.103Z",
+  "releasedAt": "2026-06-14T00:31:21.220Z",
   "manifestAsset": "openlands-native-edition-alpha-0.1.0.pack.json",
-  "manifestSha256": "45d4f3bc2ab64af48f6e531e0c7da4ffb1e5668b6ac093b5f6b063ef22377dfb",
+  "manifestSha256": "7ae53aa2623ca7992f83db855ca9d793375c22701d91cb41b9403843a5ee6e70",
+  "manifestSize": 52829,
   "artifactMode": "zip",
   "artifactAsset": "openlands-native-edition-0.1.0.zip",
-  "artifactSha256": "b76397e83b892495a0ea17b3d07ae17867b547cbae1a8abef8ddbeb6e752f3f4",
-  "artifactSize": 218828,
+  "artifactSha256": "a62f921b59d295c182f598dd50aec6f248ab34e13ec45b92771242abf475cb9e",
+  "artifactSize": 8315,
+  "moduleRelease": "modules-all-official-modpacks-install-fix-20260613",
   "packs": [
     {
       "pack": "openlands-native-edition",
@@ -25,30 +27,18 @@
     {
       "name": "openlands-native-edition-alpha-0.1.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "45d4f3bc2ab64af48f6e531e0c7da4ffb1e5668b6ac093b5f6b063ef22377dfb",
-      "size": 19719
+      "sha256": "7ae53aa2623ca7992f83db855ca9d793375c22701d91cb41b9403843a5ee6e70",
+      "size": 52829
     },
     {
       "name": "openlands-native-edition-0.1.0.zip",
       "role": "pack-artifact",
-      "sha256": "b76397e83b892495a0ea17b3d07ae17867b547cbae1a8abef8ddbeb6e752f3f4",
-      "size": 218828
-    },
-    {
-      "name": "echoopenlandsprotocol-0.1.0.echo-addon",
-      "role": "pack-file",
-      "path": "addons/echoopenlandsprotocol-0.1.0.echo-addon",
-      "sha256": "b95b83475d45aa56e8e85ec83b05990c7e1d903fcbdf58506bc2f8bf52457195",
-      "size": 216576
+      "sha256": "a62f921b59d295c182f598dd50aec6f248ab34e13ec45b92771242abf475cb9e",
+      "size": 8315
     }
   ],
-  "releaseGate": {
-    "status": "warning",
-    "publicAlphaReady": false,
-    "reason": "Published as a prerelease handoff. Do not promote to approved until Openlands readiness blockers clear."
-  },
   "notes": [
-    "Openlands Native Edition prerelease assembled from the compiled echoopenlandsprotocol Native artifact.",
-    "This is a checksum-backed prerelease handoff. Keep public-alpha validation in warning until the remaining launcher, playtest, save/load, and legal gates pass."
+    "Rebuilt openlands-native-edition against approved module release modules-all-official-modpacks-install-fix-20260613.",
+    "Manifest files contain GitHub HTTPS URLs for every module artifact used by install, repair, and update."
   ]
 }
