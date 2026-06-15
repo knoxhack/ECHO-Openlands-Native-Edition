@@ -1,3 +1,3 @@
-d65ea73651781ddc49777bee04a68e1103dfb498cedcfe4b88f592d94bb10f67  echo-release.json
-5450e43e77e2602bcada23f08e10e1e763e67cfd0ed963957f8b86950be6efb6  openlands-native-edition-0.1.0.zip
-cbbe36b5727e239faa0e54fa92962a3903cf8a3a96f014fc55766dfeeae49cde  openlands-native-edition-alpha-0.1.0.pack.json
+cec5268357fc2bf15e6741e071f9d7b14e7cbd60317f700189a05b6d07b0a733  echo-release.json
+90ae5c3cc46267377a4c72d7adb267c217d939c97ea30457adbdc891bb456908  openlands-native-edition-0.1.0.zip
+a53f3f65be49b893aa4b5595dc0da1a636e2ec1bb9349ba6e78f733f95b4b3fe  openlands-native-edition-alpha-0.1.0.pack.json
