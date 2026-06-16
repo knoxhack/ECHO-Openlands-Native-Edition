@@ -4,14 +4,14 @@
   "name": "Openlands Native Edition",
   "version": "0.1.0",
   "channel": "alpha",
-  "releasedAt": "2026-06-16T00:34:21.460Z",
+  "releasedAt": "2026-06-16T01:22:52.514Z",
   "manifestAsset": "openlands-native-edition-alpha-0.1.0.pack.json",
-  "manifestSha256": "dfe441c302f0f13308561d4ca0c6cfe69240aac2bd744a64f0f229fef2215073",
-  "manifestSize": 54830,
+  "manifestSha256": "e094d3e9fd63aa16f1324cc73da3b6b5487891fbf87d6ef64d94b3c308d863c7",
+  "manifestSize": 56508,
   "artifactMode": "zip",
   "artifactAsset": "openlands-native-edition-0.1.0.zip",
-  "artifactSha256": "a1e713689a632903917eb2294c5d20c0a03a7bd3de0cae065e713cff801178ad",
-  "artifactSize": 112761839,
+  "artifactSha256": "b5062bac87340fdac1a6c5f9ad21daac571683065e7435d18a63b9e4d4568168",
+  "artifactSize": 112807663,
   "moduleRelease": "release-index-current-module-artifacts-20260616",
   "packs": [
     {
@@ -27,21 +27,21 @@
     {
       "name": "openlands-native-edition-alpha-0.1.0.pack.json",
       "role": "pack-manifest",
-      "sha256": "dfe441c302f0f13308561d4ca0c6cfe69240aac2bd744a64f0f229fef2215073",
-      "size": 56530
+      "sha256": "e094d3e9fd63aa16f1324cc73da3b6b5487891fbf87d6ef64d94b3c308d863c7",
+      "size": 56508
     },
     {
       "name": "openlands-native-edition-0.1.0.zip",
       "role": "pack-artifact",
-      "sha256": "a1e713689a632903917eb2294c5d20c0a03a7bd3de0cae065e713cff801178ad",
-      "size": 112761839
+      "sha256": "b5062bac87340fdac1a6c5f9ad21daac571683065e7435d18a63b9e4d4568168",
+      "size": 112807663
     },
     {
       "name": "echoadaptercore-1.0.0.echo-addon",
       "role": "pack-file",
       "path": "addons/echoadaptercore-1.0.0.echo-addon",
-      "sha256": "6419877b2fdf5c9396408c71fb2a013301884416c8d3131209b8e5a03dabde7a",
-      "size": 827788
+      "sha256": "909cc422566f138e65ad927e33775cff20f3caef963181ebd7c3716f711cfbf9",
+      "size": 841135
     },
     {
       "name": "echoassetcore-1.0.0.echo-addon",
