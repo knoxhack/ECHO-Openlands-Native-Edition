@@ -30,8 +30,8 @@ These files are checked in for repo visibility and handoff review only. They are
 
 ## Release Assets
 
-- GitHub prerelease tag: `v0.1.0-openlands-native-edition`
-- Checked-in payloads: `release-assets/v0.1.0-openlands-native-edition/`
-- Uploaded assets: `openlands-native-edition-0.1.0.zip`, `openlands-native-edition-alpha-0.1.0.pack.json`, `checksums.txt`, `echo-release.json`
+- GitHub prerelease tag: `v0.1.2-openlands-native-edition-beta`
+- Checked-in payloads: `release-assets/v0.1.2-openlands-native-edition-beta/`
+- Uploaded assets: `openlands-native-edition-0.1.2.zip`, `openlands-native-edition-beta-0.1.2.pack.json`, `checksums.txt`, `echo-release.json`, `release-audit.json`
 
-These prerelease assets are checksum-backed handoff artifacts. Keep Release Index validation in warning until the remaining Openlands public-alpha gates pass.
+These files mirror the live GitHub prerelease assets and the Release Index beta catalog.

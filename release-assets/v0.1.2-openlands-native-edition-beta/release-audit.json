@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "echo.official_modpack.release_audit.v1",
+  "status": "rebuilt-from-current-module-catalog",
+  "pack": "openlands-native-edition",
+  "name": "Openlands Native Edition",
+  "version": "0.1.2",
+  "channel": "beta",
+  "moduleRelease": "modules-beta-full-20260620",
+  "moduleSourceRevision": "ECHO-Modules modules-beta-full-20260620 (2a1c2ec8), 2026-06-20",
+  "releaseTag": "v0.1.2-openlands-native-edition-beta",
+  "sourceRepo": "knoxhack/ECHO-Openlands-Native-Edition",
+  "moduleCount": 42,
+  "artifact": {
+    "name": "openlands-native-edition-0.1.2.zip",
+    "sha256": "21ee7ac2090a67a90d45a6780ca5c46a8efc577c1e622e4d86a7dd97475e80f8",
+    "size": 112894816
+  },
+  "manifest": {
+    "name": "openlands-native-edition-beta-0.1.2.pack.json",
+    "sha256": "6cfb4b0c7fd820e372ab8bf5b1607934493d418b05dd40b5d65c5190d5a4920b",
+    "size": 54977
+  },
+  "generatedAt": "2026-06-20T04:41:50.408Z"
+}
